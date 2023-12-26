@@ -1,0 +1,7 @@
+error: proc-macro derive panicked
+ --> tests/ui/derive/test_failed.rs:5:10
+  |
+5 | #[derive(Getters)]
+  |          ^^^^^^^
+  |
+  = help: message: only allow struct filed
